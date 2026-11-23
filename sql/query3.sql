@@ -1,1 +1,1 @@
-SELECT department_id FROM departments INTERSECT SELECT manager_id FROM employees ORDER BY 1;
+SELECT manager_id FROM employees INTERSECT SELECT department_id FROM departments;
