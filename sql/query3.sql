@@ -1,6 +1,1 @@
-SELECT * FROM dual;
-SELECT num_dept
-FROM dept
-INTERSECT
-SELECT num_dept
-FROM emp;
+SELECT department_id FROM departments INTERSECT SELECT manager_id FROM employees;
