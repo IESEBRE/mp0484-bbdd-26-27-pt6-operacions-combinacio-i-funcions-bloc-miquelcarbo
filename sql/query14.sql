@@ -1,1 +1,1 @@
-SELECT * FROM dual;
+SELECT UPPER(first_name || ' ' || last_name), LENGTH(first_name || ' ' || last_name) FROM employees;
